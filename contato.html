@@ -30,26 +30,26 @@
                 <form>
                     <div class="campos-form">
                         <label for="nome">Nome:</label>
-                        <input id="nome" name="nome" type="text"
+                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
                             placeholder="Insira o seu nome completo">
                         <div id="txtNome"></div>
                     </div>
 
                     <div class="campos-form">
                         <label for="email">E-mail:</label>
-                        <input id="email" name="email" type="text"
+                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
                             placeholder="Insira o seu e-mail">
                         <div id="txtEmail"></div>
                     </div>
 
                     <div class="campos-form">
                         <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" rows="8"
+                        <textarea onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
                             placeholder="Deixe sua mensagem..."></textarea>
                         <div id="txtMensagem"></div>
                     </div>
 
-                    <button>
+                    <button type="button" onclick="enviarForm()">
                         Enviar
                     </button>
 
@@ -66,11 +66,15 @@
                         placeholder="Insira o CEP da sua rua">
                     <div id="txtCep"></div>
                 </div>
-                <button>
+                <button type="button" onclick="consultarCep()">
                     Consultar
                 </button>
-                <div>
-                    <span id="resultado"></span>
+                <hr>
+                <div class="campos-form">
+                    <label for="dados">Endereço:</label>
+                    <textarea id="dados" name="dados" rows="7"
+                        placeholder="Busca CEP..."></textarea>
+                    <div id="txtCep"></div>
                 </div>
             </div>
         </section>
@@ -90,7 +94,7 @@
         </div>
         <p class="by">Desenvolvido por: Rafael Queiróz - 2023 &copy;</p>
     </footer>
-
+    <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
