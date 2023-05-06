@@ -226,3 +226,10 @@
   .campos-form {
       margin-bottom: 1rem;
   }
+
+  @media (max-width: 1000px) {
+  #sobre {
+    flex-direction: column-reverse;
+  } 
+   
+}
