@@ -49,7 +49,7 @@
                         <div id="txtMensagem"></div>
                     </div>
 
-                    <button>
+                    <button type="button">
                         Enviar
                     </button>
 
@@ -66,11 +66,15 @@
                         placeholder="Insira o CEP da sua rua">
                     <div id="txtCep"></div>
                 </div>
-                <button>
+                <button type="button">
                     Consultar
                 </button>
-                <div>
-                    <span id="resultado"></span>
+                <hr>
+                <div class="campos-form">
+                    <label for="dados">Endereço:</label>
+                    <textarea id="dados" name="dados" rows="7"
+                        placeholder="Busca CEP..."></textarea>
+                    <div id="txtCep"></div>
                 </div>
             </div>
         </section>
