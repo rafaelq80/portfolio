@@ -12,17 +12,18 @@
 
 <body>
 
-    <nav>
+    <header>
         <div class="logo">
             <img class="icone" src="assets/images/goku_ico.png" alt="Logo">
             <span class="titulo">Portfólio</span>
         </div>
-
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="contato">
         <section class="formulario">
@@ -62,7 +63,7 @@
             <div class="endereco">
                 <div class="campos-form">
                     <label for="cep">Digite o seu CEP:</label>
-                    <input id="cep" name="cep" type="text"
+                    <input onkeyup="validarCep()" id="cep" name="cep" type="text"
                         placeholder="Insira o CEP da sua rua">
                     <div id="txtCep"></div>
                 </div>
