@@ -78,12 +78,14 @@ header {
 }
 
 nav {
+    margin: 0 auto;
+    width: 80vw;
     display: flex;
-    width: auto;
-    justify-content: right;
+    justify-content: space-between;
+    background-color: var(--background-nav);
     font-size: 1.5rem;
-    padding: 2.25rem 2rem;
-    
+    padding: 2.25rem 1.5rem;
+    box-shadow: 2px 2px 5px var(--gray);
 }
 
 nav a {
