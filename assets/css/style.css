@@ -1,254 +1,263 @@
-﻿  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap');
 
-  :root {
-      --background-page: #FFF9E7;
-      --background-nav: #3A53E3;
-      --white: #FFFFFF;
-      --gray: #C0C0C0;
-      --yellow: #F8CD53;
-      --black: #000000;
-      --blue: #191970;
-  }
+:root {
+    --background-page: #FFF9E7;
+    --background-nav: #3A53E3;
+    --white: #FFFFFF;
+    --gray: #C0C0C0;
+    --yellow: #F8CD53;
+    --black: #000000;
+    --blue: #191970;
+}
 
-  * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-  body {
-      background-color: var(--background-page);
-  }
+body {
+    background-color: var(--background-page);
+}
 
-  p {
-      font-family: 'lato', Roboto;
-      margin-bottom: 1.5rem;
-  }
+p {
+    font-family: 'lato', Roboto;
+    margin-bottom: 1.5rem;
+}
 
-  h1,
-  h2,
-  h3,
-  a {
-      font-family: 'Lato', cursive;
-      color: var(--black);
-      letter-spacing: 3px;
-      font-weight: 800;
-  }
-
-  h2,
-  h3 {
-      text-align: center;
-  }
-
-  h1 {
-      font-size: 2rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      text-align: left;
-  }
-
-  h2 {
-      font-size: 2rem;
-  }
-
-  h3 {
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
-  }
-
-  a {
-      text-decoration: none;
-  }
-
-  a:hover {
-      text-shadow: 0 0 5px var(--blue);
-  }
-
-  hr {
-      margin: 1rem;
-  }
-
-  header {
-      margin: 0 auto;
-      width: 80vw;
-      display: flex;
-      justify-content: space-between;
-      background-color: var(--background-nav);
-      box-shadow: 2px 2px 5px var(--gray);
-  }
-
-  nav {
-      display: flex;
-      width: auto;
-      justify-content: right;
-      font-size: 1.5rem;
-      padding: 2.25rem 2rem;
-      
-  }
-
-  nav a {
+h1,
+h2,
+h3,
+a {
     font-family: 'Lato', cursive;
-    color: var(--white);
+    color: var(--black);
     letter-spacing: 3px;
     font-weight: 800;
 }
 
-  .logo {
-      display: flex;
-      width: 20%;
-      justify-content: left;
-      position: relative;
-      align-items: center;
-  }
+h2,
+h3 {
+    text-align: center;
+}
 
-  .icone {
-      width: 5rem;
-      display: flex;
-      padding-left: 1rem;
-  }
+h1 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
 
-  .titulo{
-    font-family: 'Lato', cursive;
-    color: var(--white);
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
     font-size: 1.5rem;
-    letter-spacing: 3px;
-      font-weight: 800;
-  }
+    margin-bottom: 2rem;
+}
 
-  ul {
-      list-style: none;
-      align-items: center;
-      display: flex;
-      gap: 1rem;
-      font-size: 24px;
-      color: var(--white);
-  }
+a {
+    text-decoration: none;
+}
 
-  main {
-      width: 80vw;
-      margin: 0 auto;
-  }
+a:hover {
+    text-shadow: 0 0 5px var(--blue);
+}
 
-  #sobre {
-      display: flex;
-      align-items: center;
-      background-color: var(--yellow);
-      padding: 20px;
-      border-radius: 16px;
-      align-items: center;
-      gap: 20px;
-  }
+hr {
+    margin: 1rem;
+}
 
-  .foto {
-      width: 200px;
-      border-radius: 20px;
-      box-shadow: 2px 2px 5px var(--gray);
-  }
+header {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-nav);
+    box-shadow: 2px 2px 5px var(--gray);
+}
 
-  #meu_video {
-      margin-bottom: 2rem;
-  }
+nav {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-nav);
+    font-size: 1.5rem;
+    padding: 2.25rem 1.5rem;
+    box-shadow: 2px 2px 5px var(--gray);
+}
 
-  .video {
-      width: 60vw;
-      aspect-ratio: 16/9;
-      margin: 0 auto;
-      display: block;
-      border-radius: 8px;
-      margin-top: 2rem;
-  }
+nav a {
+  font-family: 'Lato', cursive;
+  color: var(--white);
+  letter-spacing: 3px;
+  font-weight: 800;
+}
 
-  footer {
-      width: 80vw;
-      margin: 0 auto;
-      padding-top: 1rem;
-      padding-bottom: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: var(--black);
-  }
+.logo {
+    display: flex;
+    width: 20%;
+    justify-content: left;
+    position: relative;
+    align-items: center;
+}
 
-  .redes_sociais {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      cursor: pointer;
-  }
+.icone {
+    width: 5rem;
+    display: flex;
+    padding-left: 1rem;
+}
 
-  .by {
-      display: flex;
-      padding-top: 0.25rem;
-      color: var(--yellow);
-  }
+.titulo{
+  font-family: 'Lato', cursive;
+  color: var(--white);
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+    font-weight: 800;
+}
 
-  .icons {
-      width: 45px;
-      padding: 0 0.5rem;
-  }
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    font-size: 24px;
+    color: var(--white);
+}
 
-  /*Página de Contato*/
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
 
-  .contato {
-      display: flex;
-      gap: 3rem;
-      justify-content: center;
-      padding: 40px
-  }
+#sobre {
+    display: flex;
+    align-items: center;
+    background-color: var(--yellow);
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 20px;
+}
 
-  .endereco {
-      font-family: 'lato', Roboto;
-      color: var(--dark-purple);
-      font-size: 1rem;
-  }
+.foto {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--gray);
+}
 
-  .formulario {
-      width: 50%;
-  }
+#meu_video {
+    margin-bottom: 2rem;
+}
 
-  label {
-      font-family: 'lato', Roboto;
-      margin-left: 1rem;
-      font-weight: bold;
-  }
+.video {
+    width: 60vw;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
 
-  input,
-  textarea,
-  button {
-      font-family: 'lato', Roboto;
-      width: 100%;
-      margin-top: 0.25rem;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      font-size: 1rem;
-      color: var(--black);
-  }
+footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
 
-  input::placeholder,
-  textarea::placeholder {
-      color: var(--blue);
-  }
+.redes_sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
 
-  input,
-  textarea {
-      border: 1px solid var(--blue);
-  }
+.by {
+    display: flex;
+    padding-top: 0.25rem;
+    color: var(--yellow);
+}
 
-  button {
-      font-family: 'lato', Roboto;
-      background-color: var(--background-nav);
-      color: var(--white);
-      font-weight: bold;
-      cursor: pointer;
-      border: 2px solid var(--blue)
-  }
+.icons {
+    width: 45px;
+    padding: 0 0.5rem;
+}
 
-  button:hover {
-      background-color: var(--blue);
-      color: var(--yellow);
-  }
+/*Página de Contato*/
 
-  .campos-form {
-      margin-bottom: 1rem;
-  }
+.contato {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 40px
+}
+
+.endereco {
+    font-family: 'lato', Roboto;
+    color: var(--dark-purple);
+    font-size: 1rem;
+}
+
+.formulario {
+    width: 50%;
+}
+
+label {
+    font-family: 'lato', Roboto;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+input,
+textarea,
+button {
+    font-family: 'lato', Roboto;
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--blue);
+}
+
+input,
+textarea {
+    border: 1px solid var(--blue);
+}
+
+button {
+    font-family: 'lato', Roboto;
+    background-color: var(--background-nav);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--blue)
+}
+
+button:hover {
+    background-color: var(--blue);
+    color: var(--yellow);
+}
+
+.campos-form {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+    #sobre {
+        flex-direction: column-reverse;
+    }
+
+}
