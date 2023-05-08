@@ -12,18 +12,17 @@
 
 <body>
 
-    <header>
+    <nav>
         <div class="logo">
             <img class="icone" src="assets/images/goku_ico.png" alt="Logo">
             <span class="titulo">Portfólio</span>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
 
     <main class="contato">
         <section class="formulario">
@@ -59,12 +58,12 @@
         </section>
 
         <section>
-            <h3>Não sabe o seu CEP?</h3>
+            <h3>Consultar CEP</h3>
             <div class="endereco">
                 <div class="campos-form">
-                    <label for="cep">Digite o seu CEP:</label>
+                    <label for="cep">CEP:</label>
                     <input onkeyup="validarCep()" id="cep" name="cep" type="text"
-                        placeholder="Insira o CEP da sua rua">
+                        placeholder="Digite o número do CEP">
                     <div id="txtCep"></div>
                 </div>
                 <button type="button" onclick="consultarCep()">
