@@ -78,19 +78,21 @@ header {
 }
 
 nav {
+    margin: 0 auto;
+    width: 80vw;
     display: flex;
-    width: auto;
-    justify-content: right;
+    justify-content: space-between;
+    background-color: var(--background-nav);
     font-size: 1.5rem;
-    padding: 2.25rem 2rem;
-
+    padding: 2.25rem 1.5rem;
+    box-shadow: 2px 2px 5px var(--gray);
 }
 
 nav a {
-    font-family: 'Lato', cursive;
-    color: var(--white);
-    letter-spacing: 3px;
-    font-weight: 800;
+  font-family: 'Lato', cursive;
+  color: var(--white);
+  letter-spacing: 3px;
+  font-weight: 800;
 }
 
 .logo {
@@ -107,11 +109,11 @@ nav a {
     padding-left: 1rem;
 }
 
-.titulo {
-    font-family: 'Lato', cursive;
-    color: var(--white);
-    font-size: 1.5rem;
-    letter-spacing: 3px;
+.titulo{
+  font-family: 'Lato', cursive;
+  color: var(--white);
+  font-size: 1.5rem;
+  letter-spacing: 3px;
     font-weight: 800;
 }
 
