@@ -68,15 +68,6 @@ hr {
     margin: 1rem;
 }
 
-header {
-    margin: 0 auto;
-    width: 80vw;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--background-nav);
-    box-shadow: 2px 2px 5px var(--gray);
-}
-
 nav {
     margin: 0 auto;
     width: 80vw;
