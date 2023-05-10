@@ -101,7 +101,7 @@ if (cepOk === true || cepValido(cep)) {
     fetch(url)
       .then((response) => response.json())
       .then((jsonBody) => {
-        if (jsonBody.erro === true) {
+        if (jsonBody.erro === true || jsonBody.logradouro === undefined) {
           alert("CEP nao encontrado!");
         } else {
           document.getElementById("dados").innerHTML =
