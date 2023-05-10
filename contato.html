@@ -15,7 +15,7 @@
     <nav>
         <div class="logo">
             <img class="icone" src="assets/images/goku_ico.png" alt="Logo">
-            <span class="titulo">Portfólio</span>
+            <span class="titulo">Portfólio do Goku</span>
         </div>
 
         <ul>
@@ -24,32 +24,33 @@
         </ul>
     </nav>
 
-    <main class="contato">
-        <section class="formulario">
+
+    <main id="contato">
+        <section id="formulario_mensagem">
             <h3>Contato</h2>
                 <form>
                     <div class="campos-form">
                         <label for="nome">Nome:</label>
-                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
+                        <input id="nome" name="nome" type="text"
                             placeholder="Insira o seu nome completo">
                         <div id="txtNome"></div>
                     </div>
 
                     <div class="campos-form">
                         <label for="email">E-mail:</label>
-                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
+                        <input id="email" name="email" type="text"
                             placeholder="Insira o seu e-mail">
                         <div id="txtEmail"></div>
                     </div>
 
                     <div class="campos-form">
                         <label for="mensagem">Mensagem:</label>
-                        <textarea onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
+                        <textarea id="mensagem" name="mensagem" rows="8"
                             placeholder="Deixe sua mensagem..."></textarea>
                         <div id="txtMensagem"></div>
                     </div>
 
-                    <button type="button" onclick="enviarForm()">
+                    <button type="button">
                         Enviar
                     </button>
 
@@ -57,12 +58,12 @@
                 </form>
         </section>
 
-        <section>
+        <section id="formulario_buscacep">
             <h3>Consultar CEP</h3>
             <div class="endereco">
                 <div class="campos-form">
                     <label for="cep">CEP:</label>
-                    <input onkeyup="validarCep()" id="cep" name="cep" type="text"
+                    <input id="cep" name="cep" type="text"
                         placeholder="Digite o número do CEP">
                     <div id="txtCep"></div>
                 </div>
@@ -94,7 +95,7 @@
         </div>
         <p class="by">Desenvolvido por: Rafael Queiróz - 2023 &copy;</p>
     </footer>
-    <script src="./assets/js/scripts.js"></script>
+
 </body>
 
 </html>
