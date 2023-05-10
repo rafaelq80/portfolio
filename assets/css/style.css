@@ -399,4 +399,14 @@ de validação dos campos */
         font-size: 1rem;
     }
 
+    #contato {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #formulario_mensagem,
+    #formulario_buscacep {
+        width: 85vw;
+        margin: 0 auto;
+    }
 }
